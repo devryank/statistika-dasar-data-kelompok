@@ -4,6 +4,6 @@ Website untuk mengurutkan dan menghitung data kelompok statistika
 https://statdas.devryank.my.id
 ## Screenshot
 <div style="text-align:center;">
-![Imgur Image](https://i.imgur.com/HscLWQu.jpg)
+<img src="https://i.imgur.com/HscLWQu.jpg">
+<img src="https://i.imgur.com/EZvfp7s.png">
 </div>
-![Imgur Image](https://i.imgur.com/EZvfp7s.png)
