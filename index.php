@@ -72,12 +72,13 @@ if (isset($_POST['mulai'])) {
         if ($i == 0) { // di awal looping
             $bawah = $min + (($p - 1) * $i);  // data terendah tiap kelas
             $atas = $bawah + ($p - 1); // data tertinggi tiap kelas
-            // $data berasal dari data satuan
 
         } else { // jika bukan awal looping
             $bawah = $min + (($p) * $i); // data terendah tiap kelas
             $atas = $bawah + ($p - 1); // data tertinggi tiap kelas
         }
+        
+        // $data berasal dari data satuan
         foreach ($data as $key => $value) {
             // membandingkan data satuan dengan nilai terendah dan tertinggi tiap kelas
             // jika benar, maka jumlah dari tiap data ditambahkan ke frekuensi tiap kelas
